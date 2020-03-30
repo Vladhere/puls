@@ -1,5 +1,5 @@
 {
-  "name": "uber",
+  "name": "pulse",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vladhere/ubertest.git"
+    "url": "git+https://github.com/Vladhere/puls.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vladhere/ubertest/issues"
+    "url": "https://github.com/Vladhere/puls/issues"
   },
-  "homepage": "https://github.com/Vladhere/ubertest#readme",
+  "homepage": "https://github.com/Vladhere/puls#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
