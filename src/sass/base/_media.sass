@@ -1,5 +1,7 @@
 	
 @media (min-width: 320px)
+	.container
+		max-width: 90%
 	.cons__wrapper
 		flex-direction: column
 	.feed-form
@@ -13,12 +15,39 @@
 	.carousel
 		i,.slick-prev,.slick-next
 			display: none
+	.reviews
+		&__wrapper
+			hr
+		&__item
+			flex-direction: row-reverse
+			&__img
+				height: 32px;
+	.footer
+		&__info
+			&__addr
+			&__phone
+				&:hover
+			&__social
+				&-item
 	
 @media (min-width: 575px)
 	.container
 		max-width: 540px
 	.cons__wrapper
 		flex-direction: column
+	.reviews
+		&__wrapper
+			hr
+		&__item
+			&__img
+				height: 64px;
+	.footer
+		&__info
+			&__addr
+			&__phone
+				&:hover
+			&__social
+				&-item
   
 
 
@@ -40,6 +69,20 @@
 			display: inline-block
 		.slick-prev,.slick-next
 			display: block
+	.reviews
+		&__wrapper
+			hr
+		&__item
+			&__img
+				height: 80px;
+	.footer
+		&__info
+			&__addr
+			&__phone
+				&:hover
+			&__social
+				&-item
+
 
 
 
@@ -50,6 +93,13 @@
 		max-width: 960px
 	.cons__wrapper
 		flex-direction: row
+	.reviews
+		&__wrapper
+			hr
+		&__item
+			flex-direction: row
+			&__img
+				height: 169px;
 
 @media (min-width: 1199px) 
 	.container 
